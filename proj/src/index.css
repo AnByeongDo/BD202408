@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    padding: 1rem;
+}
+
+.product-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart {
+    margin-top: 2rem;
+}
+
+button {
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
